@@ -1,0 +1,96 @@
+html, body {
+    height: 100vh;
+    margin: 0;
+}
+
+.background {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-container {
+    background-color: white;
+    border: solid black 1px;
+    border-radius: 15px;
+    box-shadow: 7px 7px 0 black;
+    display: inline-block;
+    padding: 10px;
+}
+
+.card-image {
+    width: fit-content;
+    display: block;
+    padding: 10px;
+}
+
+.card-image-src {
+    border-radius: 10px;
+    display: block;
+}
+
+.card-text {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.card-text-category {
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    padding: 7px 10px;
+    margin: 5px 0;
+    width: fit-content;
+}
+
+.card-text-date {
+    margin: 20px 0;
+    color: hsl(0, 0%, 7%);
+    width: fit-content;
+}
+
+.card-text-title {
+    padding-bottom: 20px;
+    width: fit-content;
+}
+
+.card-text-description {
+    color: hsl(0, 0%, 42%);
+    padding-bottom: 10px;
+    width: 340px;
+    line-height: 1.5;
+}
+
+p, h4 {
+    font-family: "Figtree";
+    font-weight: 500;
+    font-size: 16px;
+}
+
+h1, h3 {
+    font-family: "Figtree";
+    font-weight: 800
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.card-author-container {
+    width: auto;
+    padding: 0 0 10px 10px;
+    width: fit-content;
+}
+
+.card-author {
+    display: flex;
+    align-items: center;
+    justify-items: flex-start;
+    gap: 10px;
+}
+
+.card-author-avatar-src {
+    width: 30px;
+    height: 30px;
+}
